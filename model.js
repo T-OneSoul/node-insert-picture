@@ -1,6 +1,6 @@
-const rp = require("request-promise"), //进入request-promise模块
-  fs = require("fs"), //进入fs模块
-  cheerio = require("cheerio"), //进入cheerio模块
+const rp = require("request-promise"), //引入request-promise模块
+  fs = require("fs"), //引入fs模块
+  cheerio = require("cheerio"), //引入cheerio模块
   depositPath = "D:/blog/reptile/meizi/"; //存放照片的地址
 let downloadPath; //下载图片的文件夹地址
 module.exports = {
@@ -89,24 +89,3 @@ module.exports = {
     }
   }
 };
-//                            _ooOoo_
-//                           o8888888o
-//                           88" . "88
-//                           (| -_- |)
-//                            O\ = /O
-//                        ____/`---'\____
-//                       / .' \\| |// `. \
-//                      / \\|||  :  |||// \
-//                     / _||||| -:- |||||- \
-//                     | | | \\\ - /// | |  |
-//                     | \_| ''\---/'' | |  |
-//                      \ .-\__ `-` ___/-. /
-//                   ___`. .' /--.--\ `. . __
-//                ."" '< `.___\_<|>_/___.' >'"".
-//               | | : `- \`.;`\ _ /`;.`/ - ` : | |
-//                 \ \ `-. \_ __\ /__ _/ .-` / /
-//         ======`-.____`-.___\_____/___.-`____.-'======
-//                            `=---='
-//
-//         .............................................
-//                  佛祖镇楼                  BUG辟易
