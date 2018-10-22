@@ -34,7 +34,6 @@ module.exports = {
       fs.mkdirSync('./picture');
     }
     if (!fs.existsSync(downloadPath)) {//查看是否存在这个文件夹
-      // fs.mkdirSync('./picture/'+obj.name);
       fs.mkdirSync(downloadPath);//不存在就建文件夹
       console.log(`${obj.name}文件夹创建成功`);
       return true;
